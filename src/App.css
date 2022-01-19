@@ -1,0 +1,78 @@
+*{
+  font-family: "Montserrat", sans-serif;
+}
+header>h1{
+  font-family: "McLaren", cursive;
+  padding:20px;
+  background-color: #f5ba13;
+  color: white;
+}
+.noteDetail{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.notes{
+  margin:10vh auto;
+  padding: 30px 30px 40px 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #000000ab;
+  position: relative;
+}
+input, textarea {
+  border: 0;
+  outline: 0;
+  background: transparent;
+  font-size:28px;
+}
+#addNotes{
+  position: absolute;
+  top:85%;
+  left: 85%;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: #f5ba13;
+  color:white;
+  font-weight: 900;
+  border:0;
+  cursor: pointer;
+}
+.cardContents{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 5vw;
+  margin:5vh 15vw;
+  font-size:24px;
+}
+.cardContent{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: left;
+  box-shadow: 0px 0px 10px #000000ab;
+  padding:20px;
+  border-radius: 10px;
+}
+.cardDelete{
+  font-size: 16px;
+  font-weight: 900;
+  padding:15px 30px;
+  border:0;
+  margin-top: 10px;
+  margin-left: 50%;
+  color: #f5ba13;
+  cursor: pointer;
+}
+.cardTitle{
+  font-weight: 900;
+}
+.cardNote{
+  font-weight: 500;
+  word-wrap: break-word;
+  margin-top: 10px;
+}
+footer{
+  text-align: center;
+}
